@@ -1,6 +1,6 @@
 <?php
 
-use MartinLindhe\VueInternationalizationGenerator\Generator;
+use Laraeast\VueInternationalizationGenerator\Generator;
 
 class GenerateTest extends \PHPUnit_Framework_TestCase
 {

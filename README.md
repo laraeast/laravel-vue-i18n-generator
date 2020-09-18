@@ -1,6 +1,6 @@
 ## About
 
-**NO LONGER MAINTAINED**
+**Forked From [martinlindhe/laravel-vue-i18n-generator](https://github.com/martinlindhe/laravel-vue-i18n-generator)**
 
 
 [![Build Status](https://travis-ci.org/martinlindhe/laravel-vue-i18n-generator.png?branch=master)](https://travis-ci.org/martinlindhe/laravel-vue-i18n-generator)
@@ -18,7 +18,7 @@ Configuration paths have changed in Laravel 5.7, in order for this package to fu
 ## Install the package
 
 In your project:
-```composer require martinlindhe/laravel-vue-i18n-generator --dev```
+```composer require laraeast/laravel-vue-i18n-generator --dev```
 
 ### For Laravel 5.4 and below:
 For older versions of the framework:
@@ -26,13 +26,13 @@ For older versions of the framework:
 Register the service provider in ```config/app.php```
 
 ```php
-MartinLindhe\VueInternationalizationGenerator\GeneratorProvider::class,
+Laraeast\VueInternationalizationGenerator\GeneratorProvider::class,
 ```
 
 Next, publish the package default config:
 
 ```
-php artisan vendor:publish --provider="MartinLindhe\VueInternationalizationGenerator\GeneratorProvider"
+php artisan vendor:publish --provider="Laraeast\VueInternationalizationGenerator\GeneratorProvider"
 ```
 
 ## Using vue-i18n

@@ -1,4 +1,4 @@
-<?php namespace MartinLindhe\VueInternationalizationGenerator;
+<?php namespace Laraeast\VueInternationalizationGenerator;
 
 use Illuminate\Support\ServiceProvider;
 
